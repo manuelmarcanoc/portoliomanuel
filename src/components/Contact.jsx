@@ -40,19 +40,15 @@ export default function Contact() {
               <a href={`mailto:${site.email}`}>{site.email}</a>
             </li>
             <li>
+              <span>TELÉFONO</span>
+              <a href="tel:+34653097798">+34 653 097 798</a>
+            </li>
+            <li>
               <span>LINKEDIN</span>
               <a href={site.linkedin} target="_blank" rel="noopener noreferrer">
                 /manuelmarcanoc
               </a>
             </li>
-            {proyectos.map((p) => (
-              <li key={p.id}>
-                <span>{p.nombre}</span>
-                <a href={p.url} target="_blank" rel="noopener noreferrer">
-                  {p.dominio} ↗
-                </a>
-              </li>
-            ))}
           </ul>
           <a className="card__cv" href={site.cv} download>
             DESCARGAR CV <b>↓</b>
@@ -79,13 +75,6 @@ export default function Contact() {
           </ul>
 
           <ul className="footer__links">
-            {proyectos.map((p) => (
-              <li key={p.id}>
-                <a href={p.url} target="_blank" rel="noopener noreferrer">
-                  {p.dominio}
-                </a>
-              </li>
-            ))}
             <li>
               <a href={site.linkedin} target="_blank" rel="noopener noreferrer">
                 LinkedIn
