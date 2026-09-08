@@ -414,13 +414,14 @@ a {
 /* PC GIF Background */
 .hero__pc-gif {
   position: absolute;
-  right: clamp(1rem, 5vw, 6rem);
-  top: clamp(6rem, 15vw, 12rem);
-  width: clamp(220px, 40vw, 450px);
+  right: clamp(0rem, 2vw, 2rem);
+  top: clamp(2rem, 10vw, 8rem);
+  width: clamp(300px, 55vw, 650px);
   z-index: 1;
   pointer-events: none;
   mix-blend-mode: multiply;
-  opacity: 0.9;
+  opacity: 0.35;
+  filter: blur(1px);
 }
 
 /* Sello circular */
