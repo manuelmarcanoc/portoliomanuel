@@ -45,10 +45,6 @@ export default function Hero() {
         <span>PORTFOLIO</span>
         <span>·</span>
         <span>{site.anio}</span>
-        <span>·</span>
-        <span>PORTFOLIO</span>
-        <span>·</span>
-        <span>{site.anio}</span>
       </div>
 
       {/* Nav mínima */}
