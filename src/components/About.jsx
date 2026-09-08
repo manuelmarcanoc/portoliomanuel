@@ -41,7 +41,6 @@ export default function About() {
               </p>
             ))}
 
-            <Languages />
           </div>
 
           <div className="about__aside reveal">
@@ -64,6 +63,8 @@ export default function About() {
             <StarBurst className="doodle--burst" color="#ff6a13" />
           </div>
         </div>
+
+        <Languages />
 
         <ul className="about__stats reveal">
           {about.stats.map((s, i) => (
