@@ -1,0 +1,3 @@
+Deja aquí los SVG de los logos de herramientas.
+El nombre debe ser el "id" de src/content.js + .svg (react.svg, figma.svg...).
+Sin estos archivos, cada pastilla muestra su monograma. Todo funciona igual.
