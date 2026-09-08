@@ -7,7 +7,7 @@ export const site = {
   nombre: 'MANUEL',
   apellido: 'MARCANO',
   anio: '2026',
-  rol: 'E-commerce · Diseño · Desarrollo web',
+  rol: 'Diseño · Desarrollo web',
   email: 'manuelmarcanocubillas@gmail.com',
   linkedin: 'https://www.linkedin.com/in/manuelmarcanoc/',
   // CV en public/img/. Si lo renombras, cámbialo aquí.
@@ -16,7 +16,7 @@ export const site = {
 
 // --- HERO --------------------------------------------------------------- //
 export const hero = {
-  kicker: 'E-COMMERCE · DISEÑO · DESARROLLO WEB',
+  kicker: 'DISEÑO · DESARROLLO WEB',
   // La palabra gigante se imprime dos veces (negro + azul desplazado)
   palabraGigante: 'MARCANO',
   nombrePequeno: 'Manuel',

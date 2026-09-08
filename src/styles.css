@@ -243,8 +243,8 @@ a {
 .hero__tape {
   position: absolute;
   top: clamp(72px, 8vw, 116px);
-  left: -16%;
-  width: 42%;
+  left: -5%;
+  width: clamp(280px, 35vw, 420px);
   background: var(--black);
   color: var(--brand);
   transform: rotate(-15deg);
@@ -1609,8 +1609,8 @@ a {
     gap: 0.75rem;
   }
   .hero__tape {
-    width: 70%;
-    left: -22%;
+    width: clamp(200px, 50vw, 280px);
+    left: -8%;
     top: 84px;
   }
   .seal {
